@@ -1,9 +1,9 @@
 package org.pureswift.swiftandroidsupport.widget
 
-import android.support.design.widget.TabLayout
-import android.support.v4.view.ViewPager
+import com.google.android.material.tabs.TabLayout
+import androidx.viewpager.widget.ViewPager
 
-class TabLayoutViewPagerOnTabSelectedListener(private val __swiftObject: Long, viewPager: ViewPager): TabLayout.ViewPagerOnTabSelectedListener(viewPager) {
+class TabLayoutViewPagerOnTabSelectedListener(private val __swiftObject: Long, viewPager: androidx.viewpager.widget.ViewPager): TabLayout.ViewPagerOnTabSelectedListener(viewPager) {
 
     override fun onTabReselected(tab: TabLayout.Tab?) {
         super.onTabReselected(tab)

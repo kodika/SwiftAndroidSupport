@@ -1,8 +1,8 @@
 package org.pureswift.swiftandroidsupport.widget
 
-import android.support.v4.widget.SwipeRefreshLayout
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout
 
-class SwipeRefreshLayoutOnRefreshListener(private val __swiftObject: Long): SwipeRefreshLayout.OnRefreshListener {
+class SwipeRefreshLayoutOnRefreshListener(private val __swiftObject: Long): androidx.swiperefreshlayout.widget.SwipeRefreshLayout.OnRefreshListener {
 
     override fun onRefresh() {
         __onRefresh(__swiftObject)

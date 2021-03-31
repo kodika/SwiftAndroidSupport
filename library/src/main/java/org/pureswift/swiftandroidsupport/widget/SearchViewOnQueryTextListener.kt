@@ -1,6 +1,6 @@
 package org.pureswift.swiftandroidsupport.widget
 
-import android.support.v7.widget.SearchView
+import androidx.appcompat.widget.SearchView
 
 public class SearchViewOnQueryTextListener(private val __swiftObject: Long): SearchView.OnQueryTextListener {
 

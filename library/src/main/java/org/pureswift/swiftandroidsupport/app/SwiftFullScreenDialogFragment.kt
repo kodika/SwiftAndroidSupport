@@ -5,8 +5,8 @@ import android.content.Context
 import android.graphics.Color
 import android.graphics.drawable.ColorDrawable
 import android.os.Bundle
-import android.support.v4.app.DialogFragment
-import android.support.v4.app.FragmentManager
+import androidx.fragment.app.DialogFragment
+import androidx.fragment.app.FragmentManager
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
@@ -14,7 +14,7 @@ import android.view.ViewGroup
 import android.view.Window
 import android.widget.RelativeLayout
 
-class SwiftFullScreenDialogFragment: DialogFragment() {
+class SwiftFullScreenDialogFragment: androidx.fragment.app.DialogFragment() {
 
     internal var __swiftObject: Long = 0L
 
@@ -85,7 +85,7 @@ class SwiftFullScreenDialogFragment: DialogFragment() {
         return dialog
     }
 
-    override fun show(manager: FragmentManager?, tag: String?) {
+    override fun show(manager: androidx.fragment.app.FragmentManager?, tag: String?) {
         super.show(manager, tag)
     }
 

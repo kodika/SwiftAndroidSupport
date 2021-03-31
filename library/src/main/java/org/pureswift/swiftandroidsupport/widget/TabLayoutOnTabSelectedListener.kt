@@ -1,6 +1,6 @@
 package org.pureswift.swiftandroidsupport.widget
 
-import android.support.design.widget.TabLayout
+import com.google.android.material.tabs.TabLayout
 
 class TabLayoutOnTabSelectedListener(private val __swiftObject: Long): TabLayout.OnTabSelectedListener {
 

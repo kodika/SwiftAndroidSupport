@@ -1,6 +1,6 @@
 package org.pureswift.swiftandroidsupport.widget
 
-import android.support.design.widget.TabLayout
+import com.google.android.material.tabs.TabLayout
 
 class TabLayoutOnPageChangeListener(private val __swiftObject: Long, tabLayout: TabLayout): TabLayout.TabLayoutOnPageChangeListener(tabLayout) {
 

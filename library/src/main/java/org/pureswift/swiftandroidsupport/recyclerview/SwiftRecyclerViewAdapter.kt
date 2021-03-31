@@ -1,10 +1,10 @@
 package org.pureswift.swiftandroidsupport.recyclerview
 
-import android.support.v7.widget.RecyclerView
+import androidx.recyclerview.widget.RecyclerView
 import android.util.Log
 import android.view.ViewGroup
 
-class SwiftRecyclerViewAdapter(private val __swiftObject: Long): RecyclerView.Adapter<SwiftRecyclerViewViewHolder>() {
+class SwiftRecyclerViewAdapter(private val __swiftObject: Long): androidx.recyclerview.widget.RecyclerView.Adapter<SwiftRecyclerViewViewHolder>() {
 
     init {
         Log.e("Swift","RecyclerViewAdapter init")

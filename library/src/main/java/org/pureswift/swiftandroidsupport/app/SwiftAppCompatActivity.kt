@@ -3,8 +3,8 @@ package org.pureswift.swiftandroidsupport.app
 import android.content.*
 import android.content.res.Resources
 import android.os.Bundle
-import android.support.v4.app.FragmentManager
-import android.support.v7.app.AppCompatActivity
+import androidx.fragment.app.FragmentManager
+import androidx.appcompat.app.AppCompatActivity
 import android.view.View
 import android.view.ViewGroup
 import android.view.WindowManager
@@ -127,7 +127,7 @@ open class SwiftAppCompatActivity: AppCompatActivity() {
         return super.getResources()
     }
 
-    override fun getSupportFragmentManager(): FragmentManager {
+    override fun getSupportFragmentManager(): androidx.fragment.app.FragmentManager {
         return super.getSupportFragmentManager()
     }
 
